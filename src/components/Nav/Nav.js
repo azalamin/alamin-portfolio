@@ -1,29 +1,50 @@
-import React from 'react';
-import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
+import React, { useState } from "react";
+import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
-import './Nav.css';
- 
+import "./Nav.css";
+
 const Nav = () => {
+  const [activeItem, setActiveItem] = useState("#");
   return (
-    <div>
-      <a href="#home" className='active'>
+    <nav>
+      <a
+        href="#home"
+        onClick={() => setActiveItem("#home")}
+        className={activeItem === "#home" ? "active" : ""}
+      >
         <AiOutlineHome />
       </a>
-      <a href="#about">
+      <a
+        onClick={() => setActiveItem("#about")}
+        className={activeItem === "#about" ? "active" : ""}
+        href="#about"
+      >
         <AiOutlineUser />
       </a>
-      <a href="#experience">
+      <a
+        onClick={() => setActiveItem("#experience")}
+        className={activeItem === "#experience" ? "active" : ""}
+        href="#experience"
+      >
         <BiBook />
       </a>
-      <a href="#services">
+      <a
+        onClick={() => setActiveItem("#services")}
+        className={activeItem === "#services" ? "active" : ""}
+        href="#services"
+      >
         <RiServiceLine />
       </a>
-      <a href="#contact">
+      <a
+        onClick={() => setActiveItem("#contact")}
+        className={activeItem === "#contact" ? "active" : ""}
+        href="#contact"
+      >
         <BiMessageSquareDetail />
       </a>
-    </div>
+    </nav>
   );
-}
+};
 
-export default Nav
+export default Nav;
