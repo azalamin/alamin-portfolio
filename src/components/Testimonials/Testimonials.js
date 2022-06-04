@@ -1,9 +1,9 @@
 import React from 'react'
-import './Testimonials'
+import './Testimonials.css'
 
 const Testimonials = () => {
   return (
-    <div>Testimonials</div>
+    <div id='testimonials '>Testimonials</div>
   )
 }
 
