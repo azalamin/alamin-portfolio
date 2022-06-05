@@ -34,10 +34,10 @@ const About = () => {
               </article>
             </div>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
-              ducimus blanditiis corporis. Ad magnam aperiam fugit? Debitis,
-              quas voluptatibus? Provident veritatis ipsam aliquid facilis
-              possimus tempora neque aliquam qui quis?
+              A goal-getter, as well as a self-starter, seeks the position of
+              Junior Developer. Bringing excellent proficiency in JavaScript,
+              React JS, HTML, CSS, Bootstrap, Tailwindcss, MongoDB, Firebase,
+              and more. Ready to learn new and explore new technology.
             </p>
             <button className="btn btn-primary">Let's Talk</button>
           </div>

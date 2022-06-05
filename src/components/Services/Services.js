@@ -15,27 +15,27 @@ const Services = () => {
           <ul className="service_list">
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Optimizing the user experience.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Using HTML, JavaScript and CSS to bring concepts to life.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Developing and maintaining the user interface.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Managing software workflow.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Fixing bugs and testing for usability.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Following SEO best practices.</p>
             </li>
           </ul>
         </article>
@@ -48,27 +48,29 @@ const Services = () => {
           <ul className="service_list">
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Reflowing content simply refers to content.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Relative sizing simply means adjusting size of element.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Breakpoints, also known as media queries.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Flexibility is main component of responsive website.</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>
+                Any conscientious Web developer should place a high priority.
+              </p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p> Compatibility.</p>
             </li>
           </ul>
         </article>
@@ -76,20 +78,20 @@ const Services = () => {
 
         <article className="service">
           <div className="service_head">
-            <h3>Content Creation</h3>
+            <h3>Backend Development</h3>
           </div>
           <ul className="service_list">
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p></p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p> Podcast</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Product Upload</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
