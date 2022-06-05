@@ -39,7 +39,7 @@ const About = () => {
               quas voluptatibus? Provident veritatis ipsam aliquid facilis
               possimus tempora neque aliquam qui quis?
             </p>
-            <button className="btn btn-primary">Let't Talk</button>
+            <button className="btn btn-primary">Let's Talk</button>
           </div>
         </div>
       </section>

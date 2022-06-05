@@ -1,8 +1,113 @@
 import React from "react";
+import { BiCheck } from "react-icons/bi";
 import "./Services.css";
 
 const Services = () => {
-  return <section id="services">Services</section>;
+  return (
+    <section id="services">
+      <h5>What I Offer</h5>
+      <h2>Services</h2>
+      <div className="container services_container">
+        <article className="service">
+          <div className="service_head">
+            <h3>Frontend Development</h3>
+          </div>
+          <ul className="service_list">
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+          </ul>
+        </article>
+        {/* END OF FRONT-END DEVELOPMENT */}
+
+        <article className="service">
+          <div className="service_head">
+            <h3>Responsive Design</h3>
+          </div>
+          <ul className="service_list">
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+          </ul>
+        </article>
+        {/* END RESPONSIVE WEBSITE */}
+
+        <article className="service">
+          <div className="service_head">
+            <h3>Content Creation</h3>
+          </div>
+          <ul className="service_list">
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className="service_list-icon" />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  );
 };
 
 export default Services;
