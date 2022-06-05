@@ -3,6 +3,8 @@ import React, { useRef } from "react";
 import { BsWhatsapp } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./Contact.css";
 
 const Contact = () => {
@@ -21,16 +23,18 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          toast.success("Message sent!");
         },
         (error) => {
-          console.log(error.text);
+          toast.error("Something went work, please try again.");
         }
       );
-      e.target.reset()
+    e.target.reset();
   };
 
   return (
     <section id="contact">
+      <ToastContainer />
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
       <div className="container contact_container">
