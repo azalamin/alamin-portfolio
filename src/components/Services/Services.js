@@ -83,27 +83,27 @@ const Services = () => {
           <ul className="service_list">
             <li>
               <BiCheck className="service_list-icon" />
-              <p></p>
+              <p>MongoDB is a nosql database where you data will be store</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p> Podcast</p>
+              <p>Firebase, user authentication system and host site freely</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Product Upload</p>
+              <p>Rest API, load data from server and show in ui</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Heroku is a server where your backend will be hosted</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Express JS is node JS Framework</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Node JS</p>
             </li>
           </ul>
         </article>

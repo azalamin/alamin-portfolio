@@ -1,7 +1,9 @@
 import React from "react";
 import Img2 from "../../assets/digital.png";
 import Img4 from "../../assets/doctors_portal.png";
+import Img6 from "../../assets/ema-john.png";
 import Img3 from "../../assets/get-me-healthy.png";
+import Img5 from "../../assets/personal.png";
 import Img1 from "../../assets/rinspeed.png";
 import "./Portfolio.css";
 
@@ -36,17 +38,17 @@ const data = [
   },
   {
     id: 5,
-    image: Img1,
-    title: "Rinspeed Car Dashboard Management",
-    github: "https://github.com/azalamin/Rinspeed-Car",
-    demo: "https://rinspeed-car.web.app/",
+    image: Img5,
+    title: "AZ Alamin (Personal Portfolio)",
+    github: "https://github.com/azalamin/az-alamin",
+    demo: "https://azalamin.github.io/az-alamin/",
   },
   {
     id: 6,
-    image: Img1,
-    title: "Rinspeed Car Dashboard Management",
-    github: "https://github.com/azalamin/Rinspeed-Car",
-    demo: "https://rinspeed-car.web.app/",
+    image: Img6,
+    title: "Ema John Simple",
+    github: "https://github.com/azalamin/ema-john-simple",
+    demo: "https://ema-john-simple-2c881.web.app/",
   },
 ];
 

@@ -34,10 +34,10 @@ const About = () => {
               </article>
             </div>
             <p>
-              A goal-getter, as well as a self-starter, seeks the position of
-              Junior Developer. Bringing excellent proficiency in JavaScript,
-              React JS, HTML, CSS, Bootstrap, Tailwindcss, MongoDB, Firebase,
-              and more. Ready to learn new and explore new technology.
+              A goal-getter, as well as a self-starter, Bringing excellent
+              proficiency in JavaScript, React JS, HTML, CSS, Bootstrap,
+              Tailwindcss, MongoDB, Firebase, and more. Ready to learn new and
+              explore new technology. No project is too big or too small for me.
             </p>
             <button className="btn btn-primary">Let's Talk</button>
           </div>

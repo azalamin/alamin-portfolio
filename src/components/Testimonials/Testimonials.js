@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Avatar1 from "../../assets/alamin.png";
+import Avatar1 from "../../assets/unknown.png";
 import "./Testimonials.css";
 
 const Testimonials = () => {
@@ -15,45 +15,11 @@ const Testimonials = () => {
     {
       avatar: Avatar1,
       id: 1,
-      name: "Tina Snow",
+      name: "Still Blank",
       review:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam maxime ullam quia optio vero tempore consectetur exercitationem temporibus iusto voluptatibus ratione saepe laborum reprehenderit,eveniet in totam autem quod odio?",
-    },
-    {
-      avatar: Avatar1,
-      id: 2,
-      name: "Tina Snow",
-      review:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam maxime ullam quia optio vero tempore consectetur exercitationem temporibus iusto voluptatibus ratione saepe laborum reprehenderit,eveniet in totam autem quod odio?",
-    },
-    {
-      avatar: Avatar1,
-      id: 3,
-      name: "Tina Snow",
-      review:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam maxime ullam quia optio vero tempore consectetur exercitationem temporibus iusto voluptatibus ratione saepe laborum reprehenderit,eveniet in totam autem quod odio?",
-    },
-    {
-      avatar: Avatar1,
-      id: 4,
-      name: "Tina Snow",
-      review:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam maxime ullam quia optio vero tempore consectetur exercitationem temporibus iusto voluptatibus ratione saepe laborum reprehenderit,eveniet in totam autem quod odio?",
-    },
-    {
-      avatar: Avatar1,
-      id: 5,
-      name: "Tina Snow",
-      review:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam maxime ullam quia optio vero tempore consectetur exercitationem temporibus iusto voluptatibus ratione saepe laborum reprehenderit,eveniet in totam autem quod odio?",
-    },
-    {
-      avatar: Avatar1,
-      id: 6,
-      name: "Tina Snow",
-      review:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam maxime ullam quia optio vero tempore consectetur exercitationem temporibus iusto voluptatibus ratione saepe laborum reprehenderit,eveniet in totam autem quod odio?",
-    },
+        "You can fill it by working with me, Lets have work a together",
+    }
+   
   ];
   return (
     <section id="testimonials ">
